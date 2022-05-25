@@ -5,4 +5,7 @@
 --> 
 
 # Introduction to the Vim Text Editor
- 
+
+## What Vim Is and Isn't 
+The Vim Text Editor is a ______ for quick text edits and code _____. It does not meant for advanced text formatting in lieu of full office suite editing software. 
+
