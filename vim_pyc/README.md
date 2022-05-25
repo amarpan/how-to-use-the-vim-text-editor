@@ -41,7 +41,7 @@
 </div>
 
 ## What Vim Is and Isn't 
-The Vim Text Editor is a ______ for quick text edits and code _____. It is not, however, meant for advanced text formatting to replace the capabilities of a full office suite. 
+Vim is an advanced text editor used best for quick notes and writing code. It does not, however, format text and represent the same features as word processing software suites. 
 
 ## Background Information
 Vim is derived from the original Vi text editor, and stands for "vi-improved". 
