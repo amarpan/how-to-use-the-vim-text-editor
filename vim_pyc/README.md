@@ -55,8 +55,13 @@ Major differences between Vi and Vim are:
 Vim should come pre-installed with every Linux distribution, but just in case it is not, run the following command: 
 ```sudo ________ ```
 
-1. Let's create a new file and open it in Vim. <br>
-Run ```vim note.txt```
+| Instructions | Screenshot |
+|------------ | ------------|
+| 1. Let's create a new file and open it in Vim. <br>
+Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="600">  ee
+| <h3 align="center">Player's Turn</h3> | <img src="/images/screenshotPlayersTurn.jpg" width="600"> 
+
+
 
 
 
