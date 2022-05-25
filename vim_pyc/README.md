@@ -57,9 +57,16 @@ Vim should come pre-installed with every Linux distribution, but just in case it
 
 | Instructions | Screenshot |
 |------------ | ------------|
-| 1. Let's create a new file and open it in Vim. <br>
-Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="600">  ee
-| <h3 align="center">Player's Turn</h3> | <img src="/images/screenshotPlayersTurn.jpg" width="600"> 
+| 1. Create a new file and open it in Vim. <br>
+Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="450"> <br> The new file is created and opened directly in the terminal.
+| 2. Enter insert mode to enable the ability to add text. <br>
+Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width="450"> <br> The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text. Before this, entering text did absolutely nothing.
+| 3. Write in some text. <br>
+Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
+| 4. Exit insert mode. <br>
+Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
+| 5. Save the file. <br>
+Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> 
 
 
 
