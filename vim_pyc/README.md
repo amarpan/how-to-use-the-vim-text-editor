@@ -66,7 +66,9 @@ Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_te
 | 4. Exit insert mode. <br>
 Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
 | 5. Save the file. <br>
-Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> 
+Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> <img src="./screenshots/file_written.png" width="450"> The "w" in :w stands for "write", and we can see the file is officially written, meaning saved. 
+| 6. Quit vim and return back to the command line. <br>
+Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> 
 
 
 
