@@ -64,11 +64,9 @@ Press ```ESC``` to exit input mode and enter command mode.
 Vim should come pre-installed with every Linux distribution, but just in case it is not, run the following command: 
 ```sudo ________ ```
 
-| Instructions | Screenshot |
-|------------ | ------------|
-| 1. Create a new file and open it in Vim. <br>
-Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="450"> <br> The new file is created and opened directly in the terminal.
-| 2. Enter input mode to enable the ability to add text. <br>
+| Step | Instructions | Screenshot  |
+|------------ | ----- | ------------|
+| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br>  <br>
 Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width="450"> <br> The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text. Before this, entering text did absolutely nothing.
 | 3. Write in some text. <br>
 Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
@@ -80,6 +78,20 @@ Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" w
 Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> 
 
 ## How to Use - Advanced Shortcuts
+
+The best thing about vim are its shortcuts. 
+
+### Navigation
+While navigation using the directional cursor keys is supported, it is recommended to use the following letter keys for quicker access to command line shortcuts:
+
+Up - ```k``` <br>
+Left - ```h``` <br>
+Down - ```j``` <br>
+Right - ```l``` <br>
+
+
+Warning: vim is case-sensitive, meaning it interprets the same letter as two different commands based on casing. 
+
 
 
 
