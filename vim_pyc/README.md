@@ -51,5 +51,9 @@ Major differences between Vi and Vim are:
 2. 
 3. 
 
+## How to Use - The Basics
+Vim should be ?pre-installed? with every Linux distribution, but just in case it is not, run the following command: <br>
+```sudo ________ ```
+
 
 
