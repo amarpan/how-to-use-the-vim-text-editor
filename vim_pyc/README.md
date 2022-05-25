@@ -41,7 +41,7 @@
 </div>
 
 ## What Vim Is and Isn't 
-The Vim Text Editor is a ______ for quick text edits and code _____. It is not, however, meant for advanced text formatting in lieu of the capabilities of a full office suite. 
+The Vim Text Editor is a ______ for quick text edits and code _____. It is not, however, meant for advanced text formatting to replace the capabilities of a full office suite. 
 
 ## Background Information
 Vim is derived from the original Vi text editor, and stands for "vi-improved". 
@@ -52,8 +52,13 @@ Major differences between Vi and Vim are:
 3. 
 
 ## How to Use - The Basics
-Vim should be ?pre-installed? with every Linux distribution, but just in case it is not, run the following command: <br>
+Vim should come pre-installed with every Linux distribution, but just in case it is not, run the following command: 
 ```sudo ________ ```
+
+1. Let's create a new file and open it in Vim. <br>
+Run ```vim note.txt```
+
+
 
 
 
