@@ -71,7 +71,7 @@ Vim should come pre-installed with every Linux distribution, but just in case it
 | 3. Write in some text. | Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
 | 4. Exit insert mode. | Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> <img src="./screenshots/file_written.png" width="450"> <br> The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> 
+| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> <br> Alternatively, ```:wq``` + ```ENTER``` writes the file and quits to the command line is one go. 
 
 ## How to Use - Advanced Shortcuts
 
