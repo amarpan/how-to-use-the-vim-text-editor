@@ -58,7 +58,7 @@ In command mode, the user can give shortcut commands to alter text or exit back 
 ### 2. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user cannot give shortcut commands to alter text or return to the command line. <br><br>
 Press ```i``` to enter input mode.
-If an -- INSERT -- message is displayed in the bottom-left hand corner, then vim is in insert mode. 
+If an -- INSERT -- message is displayed in the bottom-left hand corner, then vim is in insert mode.
 Press ```ESC``` to exit insert mode and enter command mode.
 
 <!-- ## How to Use - The Basics
@@ -87,9 +87,24 @@ Left - ```h``` <br>
 Down - ```j``` <br>
 Right - ```l``` <br>
 
+Sroll up half a window - ```CTRL-U```
+Sroll down half a window - ```CTRL-D```
+
+### Deleting Text
+Delete a character - ```x``` <br>
+Delete a word - ```dw``` <br>
+Delete a line - ```dd``` <br>
+Undo - ```u``` <br>
+Redo - ```CTRL-R``` or ```:redo```+ ```ENTER```
+
+### Entering Text
+Append (insert after cursor) - ```a```
+Insert blank line above cursor and enter insert mode - ```O```
+Insert blank line below cursor and enter insert mode - ```o```
+
 ### Useful Commands
 
-Force quit without saving - ```:q!``` + ```ENTER``` <br>
+Force quit without saving - ```:qa!``` + ```ENTER``` <br>
 Display line numbers - ```:set number``` + ```ENTER```
 Turn off line number display - ```set nonumber``` + ```ENTER```
 
