@@ -85,6 +85,10 @@ Left - ```h``` <br>
 Down - ```j``` <br>
 Right - ```l``` <br>
 
+### Need Better SubTitle Here
+
+Force quit without saving - ```:q!``` + ```ENTER```
+
 
 Warning: vim is case-sensitive, meaning it interprets the same letter as two different commands based on casing. 
 
