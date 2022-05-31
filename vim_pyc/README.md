@@ -53,16 +53,16 @@ Major differences between Vi and Vim are:
 
 ## Modes - Command and Input
 Vim has two main modes of operation - Command and Insert Mode. 
-### Command Mode
-In command mode, the user can give shortcut commands to alter text or exit back to the command line. However, the user can not enter typed text.
-### Insert Mode
+### 1. Command Mode
+In command mode, the user can give shortcut commands to alter text or exit back to the command line. However, the user can not input plain text in the file itself.
+### 2. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user cannot give shortcut commands to alter text or return to the command line. <br><br>
 Press ```i``` to enter input mode and an -- INSERT -- message will appear in the bottom-left hand corner. 
 Press ```ESC``` to exit input mode and enter command mode.
 
-## How to Use - The Basics
+<!-- ## How to Use - The Basics
 Vim should come pre-installed with every Linux distribution, but just in case it is not, run the following command: 
-```sudo ________ ```
+```sudo ________ ``` -->
 
 | Step | Instructions | Screenshot  |
 |------------ | ----- | ------------|
@@ -85,9 +85,11 @@ Left - ```h``` <br>
 Down - ```j``` <br>
 Right - ```l``` <br>
 
-### Need Better SubTitle Here
+### Useful Commands
 
-Force quit without saving - ```:q!``` + ```ENTER```
+Force quit without saving - ```:q!``` + ```ENTER``` <br>
+Display line numbers - ```:set number``` + ```ENTER```
+Turn off line number display - ```set nonumber``` + ```ENTER```
 
 
 Warning: vim is case-sensitive, meaning it interprets the same letter as two different commands based on casing. 
