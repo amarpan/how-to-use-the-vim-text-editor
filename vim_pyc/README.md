@@ -41,22 +41,22 @@
 </div>
 
 ## What Vim Is and Isn't 
-Vim is an advanced text editor used best for quick notes and writing code. It does not, however, format text and represent the same features as word processing software suites. 
+Vim is an advanced text editor used for editing plain text and code-based programs. It does not, however, format text and offer the same features as word processing software suites. 
 
 ## Background Information
-Vim is derived from the original Vi text editor, and stands for "vi-improved". 
+Vim is derived from the original Vi text editor, and stands for "Vi IMproved". 
 Major differences between Vi and Vim are:
 
-1. 
-2. 
-3. 
+1. Multi-level Undo
+2. Multiple Windows Mode
+3. Syntax Highlighting
 
 ## Modes - Command and Input
-Vim has two main modes of operation - Command and Input Mode. 
+Vim has two main modes of operation - Command and Insert Mode. 
 ### Command Mode
 In command mode, the user can give shortcut commands to alter text or exit back to the command line. However, the user can not enter typed text.
-### Input Mode
-In input mode, anything typed by the user is output to the opened file. However, the user cannot give shortcut commands to alter text or return to the command line. <br><br>
+### Insert Mode
+In insert mode, anything typed by the user is output to the opened file. However, the user cannot give shortcut commands to alter text or return to the command line. <br><br>
 Press ```i``` to enter input mode and an -- INSERT -- message will appear in the bottom-left hand corner. 
 Press ```ESC``` to exit input mode and enter command mode.
 
@@ -66,7 +66,7 @@ Vim should come pre-installed with every Linux distribution, but just in case it
 
 | Step | Instructions | Screenshot  |
 |------------ | ----- | ------------|
-| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br>  <br>
+| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br> Note: The tildes (~) represent empty lines and dissapear as lines of text are added.  <br>
 | 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width=""> <br> The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text. Before this, entering text did absolutely nothing.
 | 3. Write in some text. | Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
 | 4. Exit insert mode. | Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
