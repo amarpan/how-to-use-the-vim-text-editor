@@ -91,11 +91,11 @@ Sroll up half a window - ```CTRL-U```
 Sroll down half a window - ```CTRL-D```
 
 ### Deleting Text
-Delete a character - ```x``` <br>
-Delete a word - ```dw``` <br>
-Delete a line - ```dd``` <br>
-Undo - ```u``` <br>
-Redo - ```CTRL-R``` or ```:redo```+ ```ENTER```
+Delete character cursor is on - ```x``` <br>
+Delete word cursor is on - ```dw``` <br>
+Delete line cursor is on - ```dd``` <br>
+Undo last operation - ```u``` <br>
+Redo last operation - ```CTRL-R``` or ```:redo```+ ```ENTER```
 
 ### Entering Text
 Append (insert after cursor) - ```a```
