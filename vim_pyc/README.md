@@ -75,9 +75,9 @@ In command mode, anything typed by the user is processed as shortcut commands to
 For example, a user would use command mode to input a command like ```dl``` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
  
 ### 3. Last-Line Mode
-When a user is in command mode and prepends a keyboard shortcut with a ```:```, vim enters last-line mode. This mode is used primarily for _______
+When a user is in command mode and prepends a keyboard shortcut with a ```:```, vim enters last-line mode - meaning the cursor is now moved to the bottom line of the screen. An important distinction between command mode and last line mode is that all last line commands must be terminated with a ```ENTER```.
 <br>
-For example, a user would save the contents of a file using a commmand like ```:w```. 
+For example, a user would save the contents of a file using a commmand like ```:w``` + ```ENTER```. 
 
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
@@ -87,9 +87,9 @@ For example, a user would save the contents of a file using a commmand like ```:
 | 3. Write in some text. | Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
 | 4. Exit insert mode. | Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> <img src="./screenshots/file_written.png" width="450"> <br> The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> <br> Alternatively, ```:wq``` + ```ENTER``` writes the file and quits to the command line is one step. 
+| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> <br> Alternatively, ```:wq``` + ```ENTER``` or ```ZZ``` writes the file and quits to the command line is one step. 
 
-## How to Use - Advanced Shortcuts
+## How to Use - Advanced Command Shortcuts
 
 The best thing about vim are its shortcuts.
 <br> 
@@ -101,32 +101,35 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 Up - ```k``` <br>
 Left - ```h``` <br>
 Down - ```j``` <br>
-Right - ```l``` <br>
+Right - ```l``` or ```SPACE``` <br>
 
 Sroll up half a window - ```CTRL-U```
 Sroll down half a window - ```CTRL-D```
 
 ### Deleting Text
+Move the cursor over the desired text and use the following for deletions: <br>
 Delete character - ```x``` <br>
 Delete word - ```dw``` <br>
 Delete line - ```dd``` <br>
 Undo last operation - ```u``` <br>
-Redo last operation - ```CTRL-R``` or ```:redo```+ ```ENTER```
+Redo last operation - ```CTRL-R``` or ```:redo``` + ```ENTER```
 
 ### Entering Text
-Append (insert after cursor) - ```a``` <br>
+Append after cursor - ```a``` <br>
 Insert blank line above cursor and enter insert mode - ```O```
 Insert blank line below cursor and enter insert mode - ```o```
 
 ### Useful Commands
 
-Force quit without saving - ```:qa!``` + ```ENTER``` <br>
+Force quit without saving - ```:q!``` + ```ENTER``` <br>
 Display line numbers - ```:set number``` + ```ENTER``` <br>
 Turn off line numbers - ```set nonumber``` + ```ENTER``` <br>
-View help guides - ```:help``` <br>
-Close a help window - ```:q``` <br>
+View all help guides - ```:help``` <br>
+View a specific command help guide - ```help``` + [command] <br>
+Close a help window - ```:q!``` <br>
 Split the screen with another empty file - ```CTRL-W``` + ```n``` <br>
 Alternate which split screen uses the cursor - ```CTRL-W``` + ```w```
+Close a split window - ```CTRL-W``` + ```q```
 
 
 
