@@ -44,7 +44,7 @@
 Vim is a text editor used for editing plain text as well as code-based programs. It does not, however, format text or offer the same advanced features as word processing software suites. 
 
 ## Why Use Vim
-Vim offers a rich selection of keyboard-based shortcuts that make editing and searching for specific use-cases speedy and efficient.
+Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
 
 ## Background Information
 Vim is derived from the original Vi text editor, and stands for "Vi IMproved". 
@@ -55,20 +55,22 @@ Notable differences between Vi and Vim are:
 3. Syntax Highlighting
 
 ## Modes - Input, Command, and Last-Line
-Vim has three main modes of operation - 1. Insert Mode, 2. Command, and 3.Last-Line
+Vim has three main modes of operation: insert, command, and last-line.
 ### 1. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
 <br> 
-For example, a user would use insert mode to type up a paragraph. A user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
+For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
 <br><br>
-Press ```i``` to enter input mode. 
+To enter insert mode, press ```i```.
+<br> 
+To exit insert mode and enter command mode, press ```ESC```.
 <br>
-Note: Insert mode can be verified if an -- INSERT -- message is shown in the bottom-left hand corner of the screen.
+***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
 <br>
-Press ```ESC``` to exit insert mode and re-enter command mode.
+<br>
+
 ### 2. Command Mode (Default)
-Note: Vim is in this mode by default.
-In command mode, vim does not input plain text into the file itself - instead, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. 
+In command mode, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. While in command mode, vim does not input plain text into the file itself.
 <br>
 For example, a user would use command mode to input a command like ```dl``` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
  
