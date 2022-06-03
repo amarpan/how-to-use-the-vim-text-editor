@@ -41,11 +41,14 @@
 </div>
 
 ## What Vim Is and Isn't 
-Vim is an advanced text editor used for editing plain text and code-based programs. It does not, however, format text or offer the same features as word processing software suites. 
+Vim is a text editor used for editing plain text as well as code-based programs. It does not, however, format text or offer the same advanced features as word processing software suites. 
+
+## Why Use Vim
+Vim offers a rich selection of keyboard-based shortcuts that make editing and searching for specific use-cases speedy and efficient.
 
 ## Background Information
 Vim is derived from the original Vi text editor, and stands for "Vi IMproved". 
-Major differences between Vi and Vim are:
+Notable differences between Vi and Vim are:
 
 1. Multi-level Undo
 2. Multiple Windows Mode
@@ -54,9 +57,9 @@ Major differences between Vi and Vim are:
 ## Modes - Input, Command, and Last-Line
 Vim has three main modes of operation - 1. Insert Mode, 2. Command, and 3.Last-Line
 ### 1. Insert Mode
-In insert mode, anything typed by the user is output to the opened file. However, the user cannot give shortcut commands to alter text or return to the command line. 
+In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
 <br> 
-For example, a user would use insert mode to type up a paragraph. A user would not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
+For example, a user would use insert mode to type up a paragraph. A user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
 <br><br>
 Press ```i``` to enter input mode. 
 <br>
