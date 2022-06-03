@@ -41,7 +41,7 @@
 </div>
 
 ## What Vim Is and Isn't 
-Vim is an advanced text editor used for editing plain text and code-based programs. It does not, however, format text and offer the same features as word processing software suites. 
+Vim is an advanced text editor used for editing plain text and code-based programs. It does not, however, format text or offer the same features as word processing software suites. 
 
 ## Background Information
 Vim is derived from the original Vi text editor, and stands for "Vi IMproved". 
