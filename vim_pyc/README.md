@@ -101,7 +101,7 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 Up - ```k``` <br>
 Left - ```h``` <br>
 Down - ```j``` <br>
-Right - ```l``` or ```SPACE``` <br>
+Right - ```l``` <br>
 
 Sroll up half a window - ```CTRL-U```
 Sroll down half a window - ```CTRL-D```
@@ -130,6 +130,14 @@ Close a help window - ```:q!``` <br>
 Split the screen with another empty file - ```CTRL-W``` + ```n``` <br>
 Alternate which split screen uses the cursor - ```CTRL-W``` + ```w```
 Close a split window - ```CTRL-W``` + ```q```
+
+### Finding A Specific Character
+Move the cursor to the next occurence of a specific character on the current line - ```f```+ ```character to find```  
+| Step | Instructions | Screenshot  |
+|------------ | ----- | ------------|
+| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br> Note: The tildes (~) represent empty lines and dissapear as lines of text are added.  <br>
+| 
+
 
 
 
