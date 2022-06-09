@@ -148,6 +148,10 @@ beginning of the current sentence - ```)``` <br>
 beginning of the next paragraph - ```}``` <br>
 beginning of the current paragraph - ```{``` <br>
 
+left end of the top line of the screen - ```H``` <br>
+middle line of the screen - ```M``` <br>
+bottom line - ```L``` <br>
+
 
 
 
