@@ -98,13 +98,14 @@ Warning: vim is case-sensitive, meaning it interprets the same letter as two dif
 ### Navigation
 While navigation using the directional cursor keys or mouse is supported, it is recommended to use the following letter keys for quicker access to keyboard-based shortcuts:
 
-Up - ```k``` <br>
-Left - ```h``` <br>
-Down - ```j``` <br>
-Right - ```l``` <br>
-
-Sroll up half a window - ```CTRL-U```
-Sroll down half a window - ```CTRL-D```
+|      Event      |    Command    
+|-----------------|---------------
+| Up              |```k```        
+| Left            |```h```
+| Down            |```j``` 
+| Right           |```l```
+| Sroll up half a window |```CTRL-U```
+Sroll down half a window | ```CTRL-D```
 
 ### Deleting Text
 Move the cursor over the desired text and use the following for deletions: <br>
