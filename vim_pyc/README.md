@@ -10,7 +10,7 @@
 
 # Introduction to the Vim Text Editor
 <h3 align="center" id="author">
-   Written by <a href="https://www.linkedin.com/in/profpan396/">Professor Pan, M.Ed.</a><br> 
+   Written by <a href="https://www.linkedin.com/in/profpan396/">Professor Pan, M.Ed.</a> 
    <div align="center">
 <a href="https://profpan396.github.io/portfolio" target="_blank">
         <img
@@ -58,41 +58,41 @@ Notable differences between Vi and Vim are:
 Vim has three main modes of operation: insert, command, and last-line.
 ### 1. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
-<br> 
+ 
 For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
-<br><br>
+
 To enter insert mode, press ```i```.
-<br> 
+ 
 To exit insert mode and enter command mode, press ```ESC```.
-<br>
+
 ***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
-<br>
-<br>
+
+
 
 ### 2. Command Mode (Default)
 In command mode, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. While in command mode, vim does not input plain text into the file itself.
-<br>
+
 For example, a user would use command mode to input a command like ```dl``` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
  
 ### 3. Last-Line Mode
 When a user is in command mode and prepends a keyboard shortcut with a ```:```, vim enters last-line mode - meaning the cursor is now moved to the bottom line of the screen. An important distinction between command mode and last line mode is that all last line commands must be terminated with a ```ENTER```.
-<br>
+
 For example, a user would save the contents of a file using a commmand like ```:w``` + ```ENTER```. 
 
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
 |------------ | ----- | ------------|
-| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br> Note: The tildes (~) represent empty lines and dissapear as lines of text are added.  <br>
-| 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width=""> <br> The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
-| 3. Write in some text. | Type in a message <br> Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450"> <br> 
-| 4. Exit insert mode. | Press the ```ESC``` key.  <br> | <img src="./screenshots/exit_insert_mode.png" width="450"> <br> Note: The -- INSERT -- message has now dissapeared.
-| 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```  <br> | <img src="./screenshots/write_to_file.png" width="450"> <br> <img src="./screenshots/file_written.png" width="450"> <br> The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER``` <br> | <img src="./screenshots/quit_vim.png" width="450"> <br> <img src="./screenshots/back_to_command_line.png" width="450"> <br> Alternatively, ```:wq``` + ```ENTER``` or ```ZZ``` writes the file and quits to the command line is one step. 
+| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="">  Note: The tildes (~) represent empty lines and dissapear as lines of text are added.  
+| 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width="">  The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
+| 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450">  
+| 4. Exit insert mode. | Press the ```ESC``` key.   | <img src="./screenshots/exit_insert_mode.png" width="450">  Note: The -- INSERT -- message has now dissapeared.
+| 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```   | <img src="./screenshots/write_to_file.png" width="450">  <img src="./screenshots/file_written.png" width="450">  The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
+| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER```  | <img src="./screenshots/quit_vim.png" width="450">  <img src="./screenshots/back_to_command_line.png" width="450">  Alternatively, ```:wq``` + ```ENTER``` or ```ZZ``` writes the file and quits to the command line is one step. 
 
 ## How to Use - Advanced Command Shortcuts
 
 The best thing about vim are its shortcuts.
-<br> 
+ 
 Warning: vim is case-sensitive, meaning it interprets the same letter as two different commands based on upper or lower casing. 
 
 ### Navigation
@@ -108,63 +108,56 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 | Scroll down half a window | ```CTRL-D```
 
 ### Deleting Text
-Move the cursor over the desired text and use the following: <br>
+Move the cursor over the desired text and use the following: 
 |      Event      |    Command    
 |-----------------|---------------
 |Delete character | ```x```
 |Delete word      |```dw```
 |Delete line      |```dd```
-|Undo last operation | ```u``` <br>
-Redo last operation  |```CTRL-R``` or ```:redo``` + ```ENTER```
+|Undo last operation | ```u``` 
+|Redo last operation  |```CTRL-R``` or ```:redo``` + ```ENTER```
 
 ### Entering Text
-Append after cursor - ```a``` <br>
-Insert blank line above cursor and enter insert mode - ```O```
-Insert blank line below cursor and enter insert mode - ```o```
+|      Event      |    Command    
+|-----------------|---------------
+|Insert blank line above and enter insert mode        | ```O```
+|Insert blank line below cursor and enter insert mode |```o```
 
 ### Useful Commands
-
-Force quit without saving - ```:q!``` + ```ENTER``` <br>
-Display line numbers - ```:set number``` + ```ENTER``` <br>
-Turn off line numbers - ```set nonumber``` + ```ENTER``` <br>
-View all help guides - ```:help``` <br>
-View a specific command help guide - ```help``` + [command] <br>
-Close a help window - ```:q!``` <br>
-Split the screen with another empty file - ```CTRL-W``` + ```n``` <br>
-Alternate which split screen uses the cursor - ```CTRL-W``` + ```w``` <br>
-Close a split window - ```CTRL-W``` + ```q``` <br>
-Join the next line to the end of the current line - ```J``` <br>
+|      Event      |    Command    
+|-----------------|---------------
+Force quit without saving | ```:q!``` + ```ENTER``` 
+Display line numbers      | ```:set number``` + ```ENTER``` 
+Turn off line numbers     | ```:set nonumber``` + ```ENTER``` 
+View help guides          | ```:help```   
 
 
 ### Moving the Cursor by Criteria
 Move to the cursor to the...
+|      Event      |    Command    
+|-----------------|---------------
+next occurence of a specific character on the current line | ```f``` + ```character```  
+previous occurence of a specific character on the current line | ```F``` + ```character```  
+beginning of the next word | ```w``` 
+beginning of the previous word | ```b``` 
+end of the next word | ```e``` 
+beginning of the next sentence | ```)``` 
+beginning of the current sentence | ```)``` 
+beginning of the next paragraph | ```}``` 
+beginning of the current paragraph | ```{``` 
 
-next occurence of a specific character on the current line - ```f``` + ```character to find```  
-previous occurence of a specific character on the current line - ```F``` + ```character to find```  
-***Example: ```fp``` moves the cursor to the next instance of "p" on the same line, while ```Fp``` moves the cursor to the previous instance of "p" on the same line
-<br>
-<br>
-letter of the next word - ```w``` <br>
-letter of the previous word - ```b``` <br>
-end of the next word - ```e``` <br>
-
-beginning of the next sentence - ```)``` <br>
-beginning of the current sentence - ```)``` <br>
-beginning of the next paragraph - ```}``` <br>
-beginning of the current paragraph - ```{``` <br>
-
-left end of the top line of the screen - ```H``` <br>
-middle line of the screen - ```M``` <br>
-bottom line - ```L``` <br>
+left end of the top line of the screen - ```H``` 
+middle line of the screen - ```M``` 
+bottom line - ```L``` 
 
 ## Replacing Text
 Overwrite current character with new selection - ```r``` + ```new character```
 
 ## Searching for a String
-Find the next occurence of a string - ```/``` + ```string``` + ```ENTER``` <br> 
-Find the previous occurence of a string - ```?``` + ```string``` + ```ENTER``` <br>
-Repeat the last search - ```n``` <br> 
-Repeat the last search in the opposite direction - ```N```<br> 
+Find the next occurence of a string - ```/``` + ```string``` + ```ENTER```  
+Find the previous occurence of a string - ```?``` + ```string``` + ```ENTER``` 
+Repeat the last search - ```n```  
+Repeat the last search in the opposite direction - ```N``` 
 
 
 
