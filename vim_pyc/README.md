@@ -145,19 +145,17 @@ beginning of the next sentence | ```)```
 beginning of the current sentence | ```)``` 
 beginning of the next paragraph | ```}``` 
 beginning of the current paragraph | ```{``` 
-
-left end of the top line of the screen - ```H``` 
-middle line of the screen - ```M``` 
-bottom line - ```L``` 
-
-## Replacing Text
-Overwrite current character with new selection - ```r``` + ```new character```
+top line of the screen | ```H``` 
+middle line of the screen | ```M``` 
+bottom line of the screen | ```L``` 
 
 ## Searching for a String
-Find the next occurence of a string - ```/``` + ```string``` + ```ENTER```  
-Find the previous occurence of a string - ```?``` + ```string``` + ```ENTER``` 
-Repeat the last search - ```n```  
-Repeat the last search in the opposite direction - ```N``` 
+|      Event      |    Command    
+|-----------------|---------------
+Find the next occurence of a string | ```/``` + ```string``` + ```ENTER```  
+Find the previous occurence of a string | ```?``` + ```string``` + ```ENTER``` 
+Repeat the last search | ```n```  
+Repeat the last search in the opposite direction | ```N``` 
 
 
 
