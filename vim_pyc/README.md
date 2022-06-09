@@ -128,8 +128,10 @@ View all help guides - ```:help``` <br>
 View a specific command help guide - ```help``` + [command] <br>
 Close a help window - ```:q!``` <br>
 Split the screen with another empty file - ```CTRL-W``` + ```n``` <br>
-Alternate which split screen uses the cursor - ```CTRL-W``` + ```w```
-Close a split window - ```CTRL-W``` + ```q```
+Alternate which split screen uses the cursor - ```CTRL-W``` + ```w``` <br>
+Close a split window - ```CTRL-W``` + ```q``` <br>
+Join the next line to the end of the current line - ```J``` <br>
+
 
 ### Moving the Cursor by Criteria
 Move to the cursor to the...
@@ -151,6 +153,16 @@ beginning of the current paragraph - ```{``` <br>
 left end of the top line of the screen - ```H``` <br>
 middle line of the screen - ```M``` <br>
 bottom line - ```L``` <br>
+
+## Replacing Text
+Overwrite current character with new selection - ```r``` + ```new character```
+
+## Searching for a String
+Find the next occurence of a string - ```/``` + ```string``` + ```ENTER``` <br> 
+Find the previous occurence of a string - ```?``` + ```string``` + ```ENTER``` <br>
+Repeat the last search - ```n``` <br> 
+Repeat the last search in the opposite direction - ```N```<br> 
+
 
 
 
