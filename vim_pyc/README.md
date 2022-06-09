@@ -132,19 +132,21 @@ Alternate which split screen uses the cursor - ```CTRL-W``` + ```w```
 Close a split window - ```CTRL-W``` + ```q```
 
 ### Moving the Cursor by Criteria
-Move the cursor to the next occurence of a specific character on the current line - ```f``` + ```character to find```  
-Move the cursor to the previous occurence of a specific character on the current line - ```F``` + ```character to find```  
-Example: ```fp``` moves the cursor to the next instance of "p" on the same line, while ```Fp``` moves the cursor to the previous instance of "p" on the same line
-<br>
-<br>
-Move the cursor forward to the letter of the next word - ```w``` <br>
-Move the cursor backward to the letter of the previous word - ```b``` <br>
-Move the cursor to the end of the next word - ```e``` <br>
+Move to the cursor to the...
 
-Move the cursor forward to the beginning of the next sentence - ```)```
-Move the cursor backward to the beginning of the current sentence - ```)```
-Move the cursor forward to the beginning of the next paragraph - ```}```
-Move the cursor forward to the beginning of the current paragraph - ```{```
+next occurence of a specific character on the current line - ```f``` + ```character to find```  
+previous occurence of a specific character on the current line - ```F``` + ```character to find```  
+***Example: ```fp``` moves the cursor to the next instance of "p" on the same line, while ```Fp``` moves the cursor to the previous instance of "p" on the same line
+<br>
+<br>
+letter of the next word - ```w``` <br>
+letter of the previous word - ```b``` <br>
+end of the next word - ```e``` <br>
+
+beginning of the next sentence - ```)``` <br>
+beginning of the current sentence - ```)``` <br>
+beginning of the next paragraph - ```}``` <br>
+beginning of the current paragraph - ```{``` <br>
 
 
 
