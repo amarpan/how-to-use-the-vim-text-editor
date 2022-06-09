@@ -104,16 +104,18 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 | Left            |```h```
 | Down            |```j``` 
 | Right           |```l```
-| Sroll up half a window |```CTRL-U```
-Sroll down half a window | ```CTRL-D```
+| Scroll up half a window   |```CTRL-U```
+| Scroll down half a window | ```CTRL-D```
 
 ### Deleting Text
-Move the cursor over the desired text and use the following for deletions: <br>
-Delete character - ```x``` <br>
-Delete word - ```dw``` <br>
-Delete line - ```dd``` <br>
-Undo last operation - ```u``` <br>
-Redo last operation - ```CTRL-R``` or ```:redo``` + ```ENTER```
+Move the cursor over the desired text and use the following: <br>
+|      Event      |    Command    
+|-----------------|---------------
+|Delete character | ```x```
+|Delete word      |```dw```
+|Delete line      |```dd```
+|Undo last operation | ```u``` <br>
+Redo last operation  |```CTRL-R``` or ```:redo``` + ```ENTER```
 
 ### Entering Text
 Append after cursor - ```a``` <br>
