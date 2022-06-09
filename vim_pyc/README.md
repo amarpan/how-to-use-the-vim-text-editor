@@ -41,21 +41,21 @@
 </div>
 
 ## What Vim Is and Isn't 
-Vim is a text editor used for editing plain text as well as code-based programs. It does not, however, format text or offer the same advanced features as word processing software suites. 
+Vim is a text editor used for editing plain text as well as code-based programs. It is not meant for formatting text or offering the same advanced word processing features software suites. 
 
 ## Why Use Vim
 Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
 
 ## Background Information
-Vim is derived from the original Vi text editor, and stands for "Vi IMproved". 
+Derived from the original Vi text editor, Vim stands for "Vi IMproved". 
 Notable differences between Vi and Vim are:
 
 1. Multi-level Undo
 2. Multiple Windows Mode
 3. Syntax Highlighting
 
-## Modes - Input, Command, and Last-Line
-Vim has three main modes of operation: insert, command, and last-line.
+## Modes - Input and Command
+Vim has two main modes of operation: insert, command, and last-line.
 ### 1. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
  
@@ -67,27 +67,20 @@ To exit insert mode and enter command mode, press ```ESC```.
 
 ***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
 
-
-
 ### 2. Command Mode (Default)
 In command mode, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. While in command mode, vim does not input plain text into the file itself.
 
 For example, a user would use command mode to input a command like ```dl``` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
- 
-### 3. Last-Line Mode
-When a user is in command mode and prepends a keyboard shortcut with a ```:```, vim enters last-line mode - meaning the cursor is now moved to the bottom line of the screen. An important distinction between command mode and last line mode is that all last line commands must be terminated with a ```ENTER```.
-
-For example, a user would save the contents of a file using a commmand like ```:w``` + ```ENTER```. 
 
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
 |------------ | ----- | ------------|
-| 1. Create a new file and open it in Vim.  | Run ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width="">  Note: The tildes (~) represent empty lines and dissapear as lines of text are added.  
-| 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width="">  The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
+| 1. Create a new file and open it in Vim.  | Type ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br>  **Note**: The tildes (~) represent empty lines and dissapear as lines of text are added.  
+| 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450">  
-| 4. Exit insert mode. | Press the ```ESC``` key.   | <img src="./screenshots/exit_insert_mode.png" width="450">  Note: The -- INSERT -- message has now dissapeared.
-| 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```   | <img src="./screenshots/write_to_file.png" width="450">  <img src="./screenshots/file_written.png" width="450">  The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER```  | <img src="./screenshots/quit_vim.png" width="450">  <img src="./screenshots/back_to_command_line.png" width="450">  Alternatively, ```:wq``` + ```ENTER``` or ```ZZ``` writes the file and quits to the command line is one step. 
+| 4. Exit insert mode. | Press the ```ESC``` key.   | <img src="./screenshots/exit_insert_mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
+| 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```   | <img src="./screenshots/write_to_file.png" width="450">  <img src="./screenshots/file_written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
+| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER```  | <img src="./screenshots/quit_vim.png" width="450">  <img src="./screenshots/back_to_command_line.png" width="450">  Alternatively, ```:wq``` + ```ENTER``` writes the file and quits to the command line is one step. 
 
 ## How to Use - Advanced Command Shortcuts
 
@@ -133,7 +126,7 @@ View help guides          | ```:help```
 
 
 ### Moving the Cursor by Criteria
-Move to the cursor to the...
+Move the cursor to the...
 |      Event      |    Command    
 |-----------------|---------------
 next occurence of a specific character on the current line | ```f``` + ```character```  
