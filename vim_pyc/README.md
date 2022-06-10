@@ -91,9 +91,9 @@ For example, a user would use command mode to input a command like ```dl``` to d
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
 | 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit-insert-mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type `:w` + `ENTER`   | <img src="./screenshots/write-to-file.png" width="450">  <img src="./screenshots/file-written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/back-to-command-line.png" width="450">  Alternatively, `:wq` + `ENTER` writes the file and quits to the command line is one step. 
+| 6. Quit vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/back-to-command-line.png" width="450">  Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
 
-## How to Use - Advanced Command Shortcuts
+## Advanced Command Shortcuts
 
 The best thing about Vim are its shortcuts.
  
@@ -112,7 +112,8 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 | Scroll down half a window | `CTRL-D`
 
 ### Deleting Text
-Move the cursor over the desired text and use the following: 
+Move the cursor over the desired text and use the following:<br>
+**Note**: The following commands can also be prepended with a number for a multiplied effect.
 |      Event      |    Command    
 |:---------------:|:--------------:
 |Delete character |`x`
