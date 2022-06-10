@@ -1,8 +1,19 @@
-<!-- 
-***Rememember this isn't your first rodeo - readme-writing-tutorial was your first rodeo and that was super successful!
-1. Write it according to PYC Style Guidelines (also gives you sellability to other clients as well as your own branding revenue on panyoucan.org or gatips.com blog)
-2. Change specs to adhere to Linode Style Guidelines
---> 
+---
+author: 
+     name: Amar Pan
+     email: amarpan.us@gmail.com
+description: 'This guide introduces the user to the vim text editor. It teaches how to open, edit, and save a plain text file as well as how to use more advanced command shortcuts.'
+keywords: ["vim", "text editor"]
+license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
+published: 2022-06-09
+modified_by:
+     name: Linode
+title: 'Introduction to the Vim Text Editor'
+contributor:
+     name: Amar Pan
+     link: https://www.linkedin.com/in/profpan396/
+external_resources:
+---
 
 
 
@@ -41,7 +52,7 @@
 </div>
 
 ## What Vim Is and Isn't 
-Vim is a text editor used for editing plain text as well as code-based programs. It is not meant for formatting text or offering the same advanced word processing features software suites. 
+Vim is a text editor used for editing plain text as well as code-based programs. It is not meant for formatting text or offering the same advanced word processing features software suites. This tutorial teaches how to open, edit, and save a plain text file as well as how to use more advanced command shortcuts.'
 
 ## Why Use Vim
 Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
@@ -61,9 +72,9 @@ In insert mode, anything typed by the user is output to the opened file. However
  
 For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
 
-Press ```i``` to enter insert mode.
+Press `i` to enter insert mode.
  
-Press ```ESC``` to exit insert mode and enter command mode.
+Press `ESC` to exit insert mode and enter command mode.
 
 ***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
 
@@ -75,12 +86,12 @@ For example, a user would use command mode to input a command like ```dl``` to d
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
 |------------ | ----- | ------------|
-| 1. Create a new file and open it in Vim.  | Type ```vim note.txt``` | <img src="./screenshots/empty_vim_file.png" width=""> <br>  **Note**: The tildes (~) represent empty lines and dissapear as lines of text are added.  
-| 2. Enter input mode. | Press the ```i``` key. | <img src="./screenshots/insert_mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
+| 1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty_vim_file.png" width=""> <br>  **Note**: The tildes (~) represent empty lines and dissapear as lines of text are added.  
+| 2. Enter input mode. | Press the `i` key. | <img src="./screenshots/insert_mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter_text.png" width="450">  
-| 4. Exit insert mode. | Press the ```ESC``` key.   | <img src="./screenshots/exit_insert_mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
-| 5. Write the file to the disk (save it). | Type ```:w``` + ```ENTER```   | <img src="./screenshots/write_to_file.png" width="450">  <img src="./screenshots/file_written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type ```:q``` + ```ENTER```  | <img src="./screenshots/quit_vim.png" width="450">  <img src="./screenshots/back_to_command_line.png" width="450">  Alternatively, ```:wq``` + ```ENTER``` writes the file and quits to the command line is one step. 
+| 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit_insert_mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
+| 5. Write the file to the disk (save it). | Type `:w` + `ENTER`   | <img src="./screenshots/write_to_file.png" width="450">  <img src="./screenshots/file_written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
+| 6. Quit vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit_vim.png" width="450">  <img src="./screenshots/back_to_command_line.png" width="450">  Alternatively, `:wq` + `ENTER` writes the file and quits to the command line is one step. 
 
 ## How to Use - Advanced Command Shortcuts
 
@@ -93,62 +104,62 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 
 |      Event      |    Command    
 |-----------------|---------------
-| Up              |```k```        
-| Left            |```h```
-| Down            |```j``` 
-| Right           |```l```
-| Scroll up half a window   |```CTRL-U```
-| Scroll down half a window | ```CTRL-D```
+| Up              |`k`        
+| Left            |`h`
+| Down            |`j` 
+| Right           |`l`
+| Scroll up half a window   |`CTRL-U`
+| Scroll down half a window | `CTRL-D`
 
 ### Deleting Text
 Move the cursor over the desired text and use the following: 
 |      Event      |    Command    
 |-----------------|---------------
-|Delete character | ```x```
-|Delete word      |```dw```
-|Delete line      |```dd```
-|Undo last operation | ```u``` 
-|Redo last operation  |```CTRL-R``` or ```:redo``` + ```ENTER```
+|Delete character |`x`
+|Delete word      |`dw`
+|Delete line      |`dd`
+|Undo last operation |`u` 
+|Redo last operation  |`CTRL-R` or `:redo` + `ENTER`
 
 ### Entering Text
 |      Event      |    Command    
 |-----------------|---------------
-|Insert blank line above and enter insert mode        | ```O```
-|Insert blank line below cursor and enter insert mode |```o```
+|Insert blank line above and enter insert mode        |`O`
+|Insert blank line below cursor and enter insert mode |`o`
 
 ### Useful Commands
 |      Event      |    Command    
 |-----------------|---------------
-Force quit without saving | ```:q!``` + ```ENTER``` 
-Display line numbers      | ```:set number``` + ```ENTER``` 
-Turn off line numbers     | ```:set nonumber``` + ```ENTER``` 
-View help guides          | ```:help```   
+Force quit without saving | `:q!` + `ENTER` 
+Display line numbers      | `:set number` + `ENTER` 
+Turn off line numbers     | `:set nonumber` + `ENTER` 
+View help guides          | `:help`   
 
 
 ### Moving the Cursor by Criteria
 Move the cursor to the...
 |      Event      |    Command    
 |-----------------|---------------
-next occurence of a specific character on the current line | ```f``` + ```character```  
-previous occurence of a specific character on the current line | ```F``` + ```character```  
-beginning of the next word | ```w``` 
-beginning of the previous word | ```b``` 
-end of the next word | ```e``` 
-beginning of the next sentence | ```)``` 
-beginning of the current sentence | ```)``` 
-beginning of the next paragraph | ```}``` 
-beginning of the current paragraph | ```{``` 
-top line of the screen | ```H``` 
-middle line of the screen | ```M``` 
-bottom line of the screen | ```L``` 
+next occurence of a specific character on the current line | `f` + `character`  
+previous occurence of a specific character on the current line | `F` + `character` 
+beginning of the next word | `w`
+beginning of the previous word | `b`
+end of the next word | `e` 
+beginning of the next sentence | `)`
+beginning of the current sentence | `)`
+beginning of the next paragraph | `}`
+beginning of the current paragraph | `{`
+top line of the screen | `H`
+middle line of the screen | `M`
+bottom line of the screen | `L` 
 
 ## Searching for a String
 |      Event      |    Command    
 |-----------------|---------------
-Find the next occurence of a string | ```/``` + ```string``` + ```ENTER```  
-Find the previous occurence of a string | ```?``` + ```string``` + ```ENTER``` 
-Repeat the last search | ```n```  
-Repeat the last search in the opposite direction | ```N``` 
+Find the next occurence of a string | `/` + `string` + `ENTER`  
+Find the previous occurence of a string | `?` + `string` + `ENTER` 
+Repeat the last search | `n`  
+Repeat the last search in the opposite direction | `N` 
 
 
 
