@@ -52,7 +52,7 @@ external_resources:
 </div>
 
 ## What Vim Is and Isn't 
-Vim is a text editor used for editing plain text as well as code-based programs. It is not meant for formatting text or offering the same advanced word processing features software suites. This tutorial teaches how to open, edit, and save a plain text file as well as how to use more advanced command shortcuts.'
+Vim is a text editor used for editing plain text and code-based programs. This tutorial teaches how to open, edit, and save a plain text file in Vim as well as how to use more advanced command shortcuts.
 
 ## Why Use Vim
 Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
@@ -66,32 +66,32 @@ Notable differences between Vi and Vim are:
 3. Syntax Highlighting
 
 ## Modes - Input and Command
-Vim has two main modes of operation: insert, command, and last-line.
+Vim has two main modes of operation: insert and command.
 ### 1. Insert Mode
 In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
  
-For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
+For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like `dl` to delete the line the cursor is on. 
 
 Press `i` to enter insert mode.
  
 Press `ESC` to exit insert mode and enter command mode.
 
-***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
+**Note:** Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
 
 ### 2. Command Mode (Default)
-In command mode, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. While in command mode, vim does not input plain text into the file itself.
+In command mode, anything typed by the user is processed as shortcut commands to alter the contents of the file in some shape or form. While in command mode, Vim does not input plain text into the file itself.
 
-For example, a user would use command mode to input a command like ```dl``` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
+For example, a user would use command mode to input a command like `dl` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
 
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
 |:------------:|:-----:|:-----------:|
-| 1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty-vim-file.png" width=""> <br>  **Note**: The tildes (~) represent empty lines and dissapear as lines of text are added.  
+| 1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty-vim-file.png" width="">
 | 2. Enter input mode. | Press the `i` key. | <img src="./screenshots/insert-mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
 | 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit-insert-mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type `:w` + `ENTER`   | <img src="./screenshots/write-to-file.png" width="450">  <img src="./screenshots/file-written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/back-to-command-line.png" width="450">  Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
+| 6. Quit Vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/back-to-command-line.png" width="450">  Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
 
 ## Advanced Command Shortcuts
 
