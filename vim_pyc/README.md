@@ -85,7 +85,7 @@ For example, a user would use command mode to input a command like ```dl``` to d
 
 ## How to Use - The Basics
 | Step | Instructions | Screenshot  |
-|------------ | ----- | ------------|
+|:------------:|:-----:|:-----------:|
 | 1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty-vim-file.png" width=""> <br>  **Note**: The tildes (~) represent empty lines and dissapear as lines of text are added.  
 | 2. Enter input mode. | Press the `i` key. | <img src="./screenshots/insert-mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
@@ -103,7 +103,7 @@ The best thing about Vim are its shortcuts.
 While navigation using the directional cursor keys or mouse is supported, it is recommended to use the following letter keys for quicker access to keyboard-based shortcuts:
 
 |      Event      |    Command    
-|-----------------|---------------
+|:---------------:|:---------------:
 | Up              |`k`        
 | Left            |`h`
 | Down            |`j` 
@@ -114,7 +114,7 @@ While navigation using the directional cursor keys or mouse is supported, it is 
 ### Deleting Text
 Move the cursor over the desired text and use the following: 
 |      Event      |    Command    
-|-----------------|---------------
+|:---------------:|:--------------:
 |Delete character |`x`
 |Delete word      |`dw`
 |Delete line      |`dd`
@@ -123,13 +123,13 @@ Move the cursor over the desired text and use the following:
 
 ### Entering Text
 |      Event      |    Command    
-|-----------------|---------------
+|:---------------:|:--------------:
 |Insert blank line above and enter insert mode        |`O`
 |Insert blank line below cursor and enter insert mode |`o`
 
 ### Useful Commands
 |      Event      |    Command    
-|-----------------|---------------
+|:---------------:|:--------------:
 Force quit without saving | `:q!` + `ENTER` 
 Display line numbers      | `:set number` + `ENTER` 
 Turn off line numbers     | `:set nonumber` + `ENTER` 
@@ -139,7 +139,7 @@ View help guides          | `:help`
 ### Moving the Cursor by Criteria
 Move the cursor to the...
 |      Event      |    Command    
-|-----------------|---------------
+|:---------------:|:--------------:
 next occurence of a specific character on the current line | `f` + `character`  
 previous occurence of a specific character on the current line | `F` + `character` 
 beginning of the next word | `w`
@@ -155,7 +155,7 @@ bottom line of the screen | `L`
 
 ## Searching for a String
 |      Event      |    Command    
-|-----------------|---------------
+|:----------------:|:--------------:
 Find the next occurence of a string | `/` + `string` + `ENTER`  
 Find the previous occurence of a string | `?` + `string` + `ENTER` 
 Repeat the last search | `n`  
