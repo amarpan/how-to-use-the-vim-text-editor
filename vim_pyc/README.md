@@ -61,9 +61,9 @@ In insert mode, anything typed by the user is output to the opened file. However
  
 For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like ```dl``` to delete the line the cursor is on. 
 
-To enter insert mode, press ```i```.
+Press ```i``` to enter insert mode.
  
-To exit insert mode and enter command mode, press ```ESC```.
+Press ```ESC``` to exit insert mode and enter command mode.
 
 ***Note: Insert mode can be verified if an "-- INSERT --" message is shown in the bottom-left hand corner of the screen.
 
@@ -86,7 +86,7 @@ For example, a user would use command mode to input a command like ```dl``` to d
 
 The best thing about vim are its shortcuts.
  
-Warning: vim is case-sensitive, meaning it interprets the same letter as two different commands based on upper or lower casing. 
+**Warning:** Vim is case-sensitive, meaning it interprets the same letter as two different commands based on upper or lower casing. 
 
 ### Navigation
 While navigation using the directional cursor keys or mouse is supported, it is recommended to use the following letter keys for quicker access to keyboard-based shortcuts:
