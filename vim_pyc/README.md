@@ -19,7 +19,7 @@ external_resources:
 
 <div align="center">
 
-# Introduction to the Vim Text Editor
+# How to Use the Vim Text Editor
 <h3 align="center" id="author">
    Written by <a href="https://www.linkedin.com/in/profpan396/">Professor Pan, M.Ed.</a> 
    <div align="center">
