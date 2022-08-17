@@ -1,57 +1,33 @@
----
-author: 
-     name: Amar Pan
-     email: amarpan.us@gmail.com
-description: 'This guide introduces the user to the Vim text editor. It teaches how to open, edit, and save a plain text file as well as how to use more advanced command shortcuts.'
-keywords: ["vim", "text editor"]
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2022-06-09
-modified_by:
-     name: Linode
-title: 'Introduction to the Vim Text Editor'
-contributor:
-     name: Amar Pan
-     link: https://www.linkedin.com/in/profpan396/
-external_resources:
----
-
-
-
 <div align="center">
 
 # How to Use the Vim Text Editor
+
+</div>
 <h3 align="center" id="author">
-   Written by <a href="https://www.linkedin.com/in/profpan396/">Professor Pan, M.Ed.</a> 
+   Written by <a href="https://www.linkedin.com/in/profpan396/">Amar Pan</a> 
    <div align="center">
-<a href="https://profpan396.github.io/portfolio" target="_blank">
+<a href="https://profpan396.github.io" target="_blank">
         <img
-          src="https://img.shields.io/badge/-profpan396.github.io/portfolio-magenta?style=flat&logo=Blackberry&logoColor=black">
+          src="https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=Blackberry&logoColor=black">
       </a>
-<a href="mailto:profpan396@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/-profpan396@gmail.com-aqua?style=flat&logo=Gmail&logoColor=black">
- </a>
+      <br>
+
  <a href="https://www.github.com/profpan396/" target="_blank">
         <img
-          src="https://img.shields.io/badge/-github.com/profpan396-junglegreen?style=flat&logo=GitHub&logoColor=black">
+          src="https://img.shields.io/badge/-@profpan396-junglegreen?style=flat&logo=GitHub&logoColor=black">
       </a>
 
  <a href="https://www.linkedin.com/in/profpan396/" target="_blank">
-      <img src="https://img.shields.io/badge/-linkedin.com/in/profpan396-blue?style=flat&logo=Linkedin&logoColor=black">
+      <img src="https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black">
  </a> 
   <a href="https://medium.com/@profpan396">
-    <img src="https://img.shields.io/badge/-medium.com/@profpan396-pink?style=flat&logo=medium&logoColor=black">
+    <img src="https://img.shields.io/badge/-@profpan396-pink?style=flat&logo=medium&logoColor=black">
  </a>
- <a href="https://twitter.com/profpan396" target="_blank">
-      <img src="https://img.shields.io/badge/-twitter.com/in/profpan396-skyblue?style=flat&logo=Twitter&logoColor=black">
- </a>
-
-
- </h3>
-
+      
 ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.vim_pyc)
 </div>
 
-## What Vim Is and Isn't 
+## Introduction 
 Vim is a text editor used for editing plain text and code-based programs. This tutorial teaches how to open, edit, and save a plain text file in Vim as well as how to use more advanced command shortcuts.
 
 ## Why Use Vim
@@ -91,7 +67,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
 | 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit-insert-mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type `:w` + `ENTER`   | <img src="./screenshots/write-to-file.png" width="450">  <img src="./screenshots/file-written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
-| 6. Quit Vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/command-line.png" width="450">  Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
+| 6. Quit Vim and return back to the command line. | Type `:q` + `ENTER`  | <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/command-line.png" width="450">  <br>Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
 
 ## Advanced Command Shortcuts
 
