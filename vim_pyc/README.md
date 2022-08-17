@@ -1,22 +1,3 @@
----
-author: 
-     name: Amar Pan
-     email: amarpan.us@gmail.com
-description: 'This guide introduces the user to the vim text editor. It teaches how to open, edit, and save a plain text file as well as how to use more advanced command shortcuts.'
-keywords: ["vim", "text editor"]
-license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
-published: 2022-06-09
-modified_by:
-     name: Linode
-title: 'Introduction to the Vim Text Editor'
-contributor:
-     name: Amar Pan
-     link: https://www.linkedin.com/in/profpan396/
-external_resources:
----
-
-
-
 <div align="center">
 
 # Introduction to the Vim Text Editor
