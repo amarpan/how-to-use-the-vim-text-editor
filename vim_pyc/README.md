@@ -2,7 +2,7 @@
 
 # Introduction to the Vim Text Editor
 <h3 align="center" id="author">
-   Written by <a href="https://www.linkedin.com/in/profpan396/">Professor Pan, M.Ed.</a> 
+   Written by <a href="https://www.linkedin.com/in/profpan396/">Amar Pan, M.Ed.</a> 
    <div align="center">
 <a href="https://profpan396.github.io/portfolio" target="_blank">
         <img
