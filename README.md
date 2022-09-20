@@ -25,6 +25,9 @@
  </a> 
       
 ![](https://visitor-badge.glitch.me/badge?page_id=profpan396.vim_pyc)
+
+#### ***If you find this tutorial helpful, please consider giving it a :star:
+
 </div>
 
 ## Introduction 
@@ -138,6 +141,11 @@ Find the previous occurence of a string | `?` + `string` + `ENTER`
 Repeat the last search | `n`  
 Repeat the last search in the opposite direction | `N` 
 
+<div align="center">
+
+#### ***If you found this tutorial helpful, please consider giving it a :star:
+
+</div
 
 
 
