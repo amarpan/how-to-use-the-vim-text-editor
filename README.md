@@ -2,9 +2,11 @@
 
 # How to Use the Vim Text Editor
 
-</div>
+
 <h3 align="center" id="author">
-   Written by <a href="https://www.linkedin.com/in/profpan396/">Amar Pan</a> 
+   Written by <a href="https://www.linkedin.com/in/profpan396/">Amar Pan, M.Ed.</a> 
+   </h3>
+   <p>Technical Writer @ Linode </p>
    <div align="center">
 <a href="https://profpan396.github.io" target="_blank">
         <img
@@ -28,6 +30,7 @@
 
 #### ***If you find this tutorial helpful, please consider giving it a :star:
 
+</div>
 </div>
 
 ## Introduction 
