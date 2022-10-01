@@ -2,12 +2,8 @@
 
 # How to Use the Vim Text Editor
 
+**Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br>Technical Writer @ Linode
 
-<p>
-      <strong>Written by <a href="https://www.linkedin.com/in/profpan396/">Amar Pan, M.Ed.</a></strong>
-      <br>
-      Technical Writer @ Linode
-   </p>
 <a href="https://profpan396.github.io" target="_blank">
         <img
           src="https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=Blackberry&logoColor=black">
