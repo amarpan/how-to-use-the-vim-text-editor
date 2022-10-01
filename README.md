@@ -29,11 +29,17 @@
 </div>
 </div>
 
+<div align="center">
+
+#### ***If you find this tutorial helpful, please consider giving it a :star:
+
+</div><br>
+
 Vim is a text editor used for editing plain text and code-based programs. This tutorial teaches how to open, edit, and save a plain text file in Vim as well as how to use more advanced command shortcuts.
 
 <div align="center">
      
-#### ***If you find this tutorial helpful, please consider giving it a :star:
+
       
 </div>
 
