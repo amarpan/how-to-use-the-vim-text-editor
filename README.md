@@ -7,10 +7,8 @@
   <div id="socialbuttons" align="center">
 
   [![Portfolio Badge](https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=)](https://profpan396.github.io)
-  
-  [![LinkedIn Badge](https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/profpan396/)
 
-  <br>
+  [![LinkedIn Badge](https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/profpan396/)
 
   ![Stars](https://img.shields.io/github/stars/profpan396/how-to-use-the-vim-text-editor?style=social)
   ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.how-to-use-the-vim-text-editor)
