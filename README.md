@@ -72,8 +72,10 @@ For example, a user would use command mode to input a command like `dl` to delet
 
 <img src="./screenshots/insert-mode.png" width="">
 
+<br>  
 
- <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
+**Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
+
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
 | 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit-insert-mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
 | 5. Write the file to the disk (save it). | Type `:w` + `ENTER`   | <img src="./screenshots/write-to-file.png" width="450">  <img src="./screenshots/file-written.png" width="450">  <br> **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
