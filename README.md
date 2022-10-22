@@ -36,7 +36,7 @@ This tutorial describes how to open, edit, and save a plain text file using the 
 Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
 
 ## Background Information
-Derived from the original Vi text editor, Vim stands for "Vi IMproved". 
+Derived from the Vi text editor, Vim stands for "Vi IMproved". 
 Notable differences between Vi and Vim are:
 
 1. Multi-Level Undo
