@@ -88,7 +88,7 @@ For example, a user would use command mode to input a command like `dl` to delet
     
 **Note**: The -- INSERT -- message has now dissapeared.
 
-5. Write the file to the disk (save it).
+5. Save the file (write it to disk).
     - a. Type `:w` + `ENTER` 
     
 <img src="./screenshots/write-to-file.png" width="450">
