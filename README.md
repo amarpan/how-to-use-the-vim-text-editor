@@ -173,7 +173,7 @@ Repeat the last search in the opposite direction | `N`
 
 You may wish to consult the following resources for additional information on this topic. While these are provided in the hope that they will be useful, please note that we cannot vouch for the accuracy or timeliness of externally hosted materials.
 
-- [Official Zsh Documentation](https://www.vim.org/docs.php)
+- [Official Vim Documentation](https://www.vim.org/docs.php)
 - [Oh My Zsh Framework Documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
 - [List of Zsh Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
 
