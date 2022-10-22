@@ -25,13 +25,6 @@ This tutorial describes how to open, edit, and save a plain text file using the 
 
 </section>
 
-<div align="center">
-     
-
-      
-</div>
-
-
 ## Why Use Vim
 Vim offers a rich selection of keyboard-based shortcuts that make editing, inserting, deleting, and searching for specific use-cases speedy and efficient.
 
