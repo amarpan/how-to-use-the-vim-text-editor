@@ -98,7 +98,7 @@ For example, a user would use command mode to input a command like `dl` to delet
     
 <br>
 
-Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
+**Note:** Alternatively, typing `:wq` + `ENTER` writes the file and quits to the command line is one step. 
 
 ## Advanced Command Shortcuts
 
