@@ -39,7 +39,7 @@ Vim offers a rich selection of keyboard-based shortcuts that make editing, inser
 Derived from the original Vi text editor, Vim stands for "Vi IMproved". 
 Notable differences between Vi and Vim are:
 
-1. Multi-level Undo
+1. Multi-Level Undo
 2. Multiple Windows Mode
 3. Syntax Highlighting
 
