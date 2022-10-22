@@ -102,7 +102,9 @@ For example, a user would use command mode to input a command like `dl` to delet
 6. Exit (quit) Vim and return back to the command line. 
     - a. Type `:q` + `ENTER` 
     
-    <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/command-line.png" width="450">  
+<img src="./screenshots/quit-vim.png" width="450">  
+
+<img src="./screenshots/command-line.png" width="450">  
     
 <br>
 
