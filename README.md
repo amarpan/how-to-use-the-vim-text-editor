@@ -71,7 +71,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 **Note**: The -- INSERT -- status message in the bottom-left corner signals that you can now insert text.
 
 3. Write in some text.
-    - a. Type in a message (Example: I love Linux!)
+    - a. Type in a message (Example: I love Linux.)
 
 <img src="./screenshots/enter-text.png" width="450">
 
