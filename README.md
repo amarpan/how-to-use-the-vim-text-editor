@@ -68,7 +68,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 <img src="./screenshots/empty-vim-file.png" width="">
 
 2. Enter input mode.
-    - Press the `i` key.
+    - a. Press the `i` key.
 
 <img src="./screenshots/insert-mode.png" width="">
 
