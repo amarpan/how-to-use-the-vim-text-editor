@@ -3,7 +3,7 @@
 # How to Use the Vim Text Editor
 **Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
 
-<div align="center" id="socialbuttons">
+<div id="socialbuttons" align="center">
 
   [![Portfolio Badge](https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=)](https://profpan396.github.io)
   <br>
