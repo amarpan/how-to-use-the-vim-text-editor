@@ -94,6 +94,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 <img src="./screenshots/write-to-file.png" width="450">
 
 <img src="./screenshots/file-written.png" width="450">  
+
 <br> 
 
 **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
