@@ -40,7 +40,7 @@ Notable upgrades include:
 ## Modes - Input and Command
 Vim has two main modes of operation: insert and command.
 ### 1. Insert Mode
-In insert mode, anything typed by the user is output to the opened file. However, the user can not give shortcut commands to alter text or return to the command line. 
+In insert mode, anything typed by the user is output to the opened file. However, the user can't give shortcut commands to alter text or return to the command line. 
  
 For example, a user would use insert mode to type up a paragraph. However, a user would and could not use insert mode to give a command like `dl` to delete the line the cursor is on. 
 
