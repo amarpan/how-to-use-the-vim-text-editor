@@ -82,7 +82,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 <img src="./screenshots/enter-text.png" width="450">
 
 4. Exit insert mode.
-    - Press the `ESC` key.
+    - a. Press the `ESC` key.
     
     <img src="./screenshots/exit-insert-mode.png" width="450">  <br> 
     
