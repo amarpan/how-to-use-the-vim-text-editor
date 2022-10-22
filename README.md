@@ -97,7 +97,7 @@ For example, a user would use command mode to input a command like `dl` to delet
 **Note:** The "w" in :w stands for "write", and we can see the file is now officially written to the disk, meaning saved. 
 
 6. Exit (quit) Vim and return back to the command line. 
-    - Type `:q` + `ENTER` 
+    - a. Type `:q` + `ENTER` 
     
     <img src="./screenshots/quit-vim.png" width="450">  <img src="./screenshots/command-line.png" width="450">  
     
