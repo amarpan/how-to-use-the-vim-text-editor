@@ -13,9 +13,7 @@
   ![Stars](https://img.shields.io/github/stars/profpan396/how-to-use-the-vim-text-editor?style=social)
   ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.how-to-use-the-vim-text-editor)
   ![Forks](https://img.shields.io/github/forks/profpan396/how-to-use-the-vim-text-editor?style=social)
-
   <br>
-
   ![Version](https://img.shields.io/badge/version-1.0-gold)
 
   ### If you find this tutorial helpful, please consider giving it a :star:
