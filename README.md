@@ -1,30 +1,24 @@
 <div align="center">
 
 # How to Use the Vim Text Editor
+**Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
 
-**Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br>Technical Writer @ Linode
+<!-- Delete below for publication -->
+ 
 
-<a href="https://profpan396.github.io" target="_blank">
-        <img
-          src="https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=Blackberry&logoColor=black">
-      </a>
-      <br>
+<div align="center" id="socialbuttons">
 
- <a href="https://www.github.com/profpan396/" target="_blank">
-        <img
-          src="https://img.shields.io/badge/-@profpan396-junglegreen?style=flat&logo=GitHub&logoColor=black">
-      </a>
-      <a href="https://twitter.com/profpan396" target="_blank">
-  <img src="https://img.shields.io/badge/-@profpan396-skyblue?style=flat&logo=Twitter&logoColor=black">
-</a>
+  [![Portfolio Badge](https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=)](https://profpan396.github.io)
+  <br>
+  [![LinkedIn Badge](https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/profpan396/)
+  <br>
+  ![Stars](https://img.shields.io/github/stars/profpan396/how-to-use-the-vim-text-editor?style=social)
+  ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.how-to-use-the-vim-text-editor)
+  ![Forks](https://img.shields.io/github/forks/profpan396/how-to-use-the-vim-text-editor?style=social)
+  <br>
+  ![Version](https://img.shields.io/badge/version-1.0-gold)
 
- <a href="https://www.linkedin.com/in/profpan396/" target="_blank">
-      <img src="https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black">
- </a> 
-      
-![](https://visitor-badge.glitch.me/badge?page_id=profpan396.vim_pyc)
-
-
+  ### If you find this tutorial helpful, please consider giving it a :star:
 
 </div>
 </div>
