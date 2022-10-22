@@ -21,7 +21,7 @@
 </div>
 </div>
 
-This tutorial teaches how to open, edit, and save a plain text file using the Vim text editor in a command line interface (CLI).
+This tutorial describes how to open, edit, and save a plain text file using the Vim text editor in a command line interface (CLI).
 
 </section>
 
