@@ -62,9 +62,7 @@ In command mode, anything typed by the user is processed as shortcut commands to
 For example, a user would use command mode to input a command like `dl` to delete the line the cursor is on. A user would not use command mode to type up a paragraph.
 
 ## How to Use - The Basics
-| Step | Instructions | Screenshot  |
-|:------------:|:-----:|:-----------:|
-| 1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty-vim-file.png" width="">
+1. Create a new file and open it in Vim.  | Type `vim note.txt` | <img src="./screenshots/empty-vim-file.png" width="">
 | 2. Enter input mode. | Press the `i` key. | <img src="./screenshots/insert-mode.png" width=""> <br>  **Note**: The -- INSERT -- status message in the bottom-left corner signals to us that we can now insert text.
 | 3. Write in some text. | Type in a message  Example: I love Linux! | <img src="./screenshots/enter-text.png" width="450">  
 | 4. Exit insert mode. | Press the `ESC` key.   | <img src="./screenshots/exit-insert-mode.png" width="450">  <br> **Note**: The -- INSERT -- message has now dissapeared.
