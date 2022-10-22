@@ -169,11 +169,18 @@ Find the previous occurence of a string | `?` + `string` + `ENTER`
 Repeat the last search | `n`  
 Repeat the last search in the opposite direction | `N` 
 
+## More Information
+
+You may wish to consult the following resources for additional information on this topic. While these are provided in the hope that they will be useful, please note that we cannot vouch for the accuracy or timeliness of externally hosted materials.
+
+- [Official Zsh Documentation](https://zsh.sourceforge.io/Doc/)
+- [Oh My Zsh Framework Documentation](https://github.com/ohmyzsh/ohmyzsh/wiki)
+- [List of Zsh Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/themes)
+
 <div align="center">
-
-#### ***If you found this tutorial helpful, please consider giving it a :star:
-
-</div>
+   <h3>***If you found this tutorial helpful, please consider giving it a :star:</h3>
+   
+   Copyright :copyright: 2021-2022 Pan You Can
 
 
 
