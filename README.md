@@ -179,7 +179,7 @@ You may wish to consult the following resources for additional information on th
 
 ### ***If you found this tutorial helpful, please consider giving it a :star:
    
-   Copyright :copyright: 2021-2022 Pan You Can
+   Copyright :copyright: 2021-2022 <br> Pan You Can
 
 
 
