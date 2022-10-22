@@ -30,6 +30,7 @@ Vim offers a rich selection of keyboard-based shortcuts that make editing, inser
 
 ## Background Information
 Derived from the Vi text editor, Vim stands for "Vi IMproved". 
+
 Notable upgrades include:
 
 1. Multi-Level Undo
