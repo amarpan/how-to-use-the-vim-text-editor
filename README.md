@@ -173,7 +173,7 @@ Repeat the last search in the opposite direction | `N`
 
 #### ***If you found this tutorial helpful, please consider giving it a :star:
 
-</div
+</div>
 
 
 
