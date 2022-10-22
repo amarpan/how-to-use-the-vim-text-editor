@@ -1,19 +1,24 @@
 <section id="header">
-<div align="center">
+  <div align="center">
 
-# How to Use the Vim Text Editor
-**Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
+  # How to Use the Vim Text Editor
+  **Written by [Amar Pan, M.Ed.](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
 
-<div id="socialbuttons" align="center">
+  <div id="socialbuttons" align="center">
 
   [![Portfolio Badge](https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=)](https://profpan396.github.io)
   <br>
+
   [![LinkedIn Badge](https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/profpan396/)
+
   <br>
+
   ![Stars](https://img.shields.io/github/stars/profpan396/how-to-use-the-vim-text-editor?style=social)
   ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.how-to-use-the-vim-text-editor)
   ![Forks](https://img.shields.io/github/forks/profpan396/how-to-use-the-vim-text-editor?style=social)
+
   <br>
+  
   ![Version](https://img.shields.io/badge/version-1.0-gold)
 
   ### If you find this tutorial helpful, please consider giving it a :star:
