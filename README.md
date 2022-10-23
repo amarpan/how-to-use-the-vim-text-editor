@@ -1,7 +1,7 @@
 <section id="header">
   <div align="center">
 
-  # How to Use the Vim Text Editor
+  # How to Use the Command Line Vim Text Editor
   **Written by [Amar Pan](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
 
   <div id="socialbuttons" align="center">
