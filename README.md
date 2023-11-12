@@ -2,17 +2,17 @@
   <div align="center">
 
   # How to Use the Command Line Vim Text Editor
-  **Written by [Amar Pan](https://www.linkedin.com/in/profpan396/)** <br> Technical Writer
+  **Written by [Amar Panjwani](https://www.linkedin.com/in/amarpan/)** <br> Technical Writer
 
   <div id="socialbuttons" align="center">
 
-  [![Portfolio Badge](https://img.shields.io/badge/-profpan396.github.io-magenta?style=flat&logo=)](https://profpan396.github.io)
+  [![Portfolio Badge](https://img.shields.io/badge/-amarpan.github.io-magenta?style=flat&logo=)](https://amarpan.github.io)
   <br>
-  [![LinkedIn Badge](https://img.shields.io/badge/-@profpan396-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/profpan396/)
+  [![LinkedIn Badge](https://img.shields.io/badge/-@amarpan-blue?style=flat&logo=Linkedin&logoColor=black)](https://www.linkedin.com/in/amarpan/)
   <br>
-  ![Stars](https://img.shields.io/github/stars/profpan396/how-to-use-the-vim-text-editor?style=social)
-  ![](https://visitor-badge.laobi.icu/badge?page_id=profpan396.how-to-use-the-vim-text-editor)
-  ![Forks](https://img.shields.io/github/forks/profpan396/how-to-use-the-vim-text-editor?style=social)
+  ![Stars](https://img.shields.io/github/stars/amarpan/how-to-use-the-vim-text-editor?style=social)
+  ![](https://visitor-badge.laobi.icu/badge?page_id=amarpan.how-to-use-the-vim-text-editor)
+  ![Forks](https://img.shields.io/github/forks/amarpan/how-to-use-the-vim-text-editor?style=social)
   <br>
   ![Version](https://img.shields.io/badge/version-1.0-gold)
 
@@ -148,8 +148,8 @@ View help guides          | `:help`
 Move the cursor to the...
 |      Event      |    Command    
 |:---------------:|:--------------:
-next occurence of a specific character on the current line | `f` + `character`  
-previous occurence of a specific character on the current line | `F` + `character` 
+next occurrence of a specific character on the current line | `f` + `character`  
+previous occurrence of a specific character on the current line | `F` + `character` 
 beginning of the next word | `w`
 beginning of the previous word | `b`
 end of the next word | `e` 
@@ -164,8 +164,8 @@ bottom line of the screen | `L`
 ## Searching for a String
 |      Event      |    Command    
 |:----------------:|:--------------:
-Find the next occurence of a string | `/` + `string` + `ENTER`  
-Find the previous occurence of a string | `?` + `string` + `ENTER` 
+Find the next occurrence of a string | `/` + `string` + `ENTER`  
+Find the previous occurrence of a string | `?` + `string` + `ENTER` 
 Repeat the last search | `n`  
 Repeat the last search in the opposite direction | `N` 
 
@@ -179,15 +179,15 @@ You may wish to consult the following resources for additional information on th
 
 ### ***If you found this tutorial helpful, please consider giving it a :star:
    
-Copyright :copyright: 2021-2022 <br> Pan You Can
+Copyright :copyright: 2021-2022
 
-## More Tutorials from Amar Pan
+## More Tutorials from Amar Panjwani
 
-  [How to Write a Coding Bootcamp README](https://github.com/profpan396/how-to-write-a-README)
+  [How to Write a Coding Bootcamp README](https://github.com/amarpan/how-to-write-a-README)
 
- [How to Change Z Shell Themes](https://github.com/profpan396/how-to-install-and-configure-zshell)
+ [How to Change Z Shell Themes](https://github.com/amarpan/how-to-install-and-configure-zshell)
 
- [How to Create a GitHub Profile](https://github.com/profpan396/how-to-create-a-github-profile)
+ [How to Create a GitHub Profile](https://github.com/amarpan/how-to-create-a-github-profile)
 
 
 
